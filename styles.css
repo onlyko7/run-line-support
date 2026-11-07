@@ -31,4 +31,4 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 /* The user-provided Run Line artwork is the support page's hero image. */
-.brand-mark img{display:block;width:100%;height:100%;border-radius:inherit;object-fit:cover}
+.brand-mark img{display:block;width:32px;height:32px;max-width:100%;border-radius:inherit;object-fit:cover}
