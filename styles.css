@@ -31,6 +31,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 /* The user-provided Run Line artwork is the support page's hero image. */
-.app-art{justify-self:end;width:min(100%,430px);margin:0;overflow:hidden;border:1px solid #e2e6df;border-radius:10px;background:#09214c;box-shadow:0 28px 70px rgba(31,63,48,.14)}.app-art img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
+.hero{grid-template-columns:minmax(0,1fr) minmax(0,.9fr)}.app-art{justify-self:end;width:min(100%,430px);min-width:0;margin:0;overflow:hidden;border:1px solid #e2e6df;border-radius:10px;background:#09214c;box-shadow:0 28px 70px rgba(31,63,48,.14)}.app-art img{display:block;width:100%;max-width:100%;aspect-ratio:1;object-fit:cover}
 @media(max-width:850px){.app-art{max-width:390px}}
 @media(max-width:650px){.app-art{justify-self:center;width:100%;max-width:410px}}
