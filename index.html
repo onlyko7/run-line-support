@@ -12,7 +12,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Run Line 지원 홈">
-      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M4 21h8l5-11 4 11h7"/></svg></span>
+      <span class="brand-mark"><img src="run-line-app.jpg" alt=""></span>
       <span>Run Line <span class="brand-sub">SUPPORT</span></span>
     </a>
     <nav aria-label="주요 메뉴">
@@ -31,7 +31,21 @@
         <div class="hero-actions"><a class="button button-dark" href="#guide">앱 사용 안내 <span aria-hidden="true">↓</span></a><a class="text-link" href="#contact">도움이 더 필요하신가요? <span aria-hidden="true">↗</span></a></div>
         <div class="hero-note"><span class="note-icon" aria-hidden="true">✳</span><span>지도에 표시되는 직선은 동기부여를 위한 시각화이며 실제 러닝 경로나 이동 거리를 나타내지 않습니다.</span></div>
       </div>
-      <figure class="app-art"><img src="run-line-app.jpg" alt="Run Line 앱 이미지: 러너가 지도 위의 노란 경로를 따라 목표 지점으로 달리는 모습"></figure>
+      <div class="route-card" aria-label="출발지와 목적지를 연결하는 예시 직선 일러스트">
+        <div class="route-top"><span>나의 챌린지</span><span class="route-menu" aria-hidden="true">•••</span></div>
+        <div class="route-title">나만의 목표를 향해</div>
+        <div class="route-map">
+          <div class="map-grid"></div>
+          <div class="route-line"></div>
+          <div class="route-progress"></div>
+          <div class="route-pin start-pin"><span></span></div>
+          <div class="runner"><span>➤</span></div>
+          <div class="route-pin finish-pin"><span></span></div>
+          <span class="map-label label-start">출발</span><span class="map-label label-finish">목표</span>
+          <span class="map-caption">직선 진척 예시</span>
+        </div>
+        <div class="route-stats"><div><span>진척률</span><strong>64<span>%</span></strong></div><div class="stat-divider"></div><div><span>남은 거리</span><strong>42.8 <small>km</small></strong></div><span class="route-spark" aria-hidden="true">↗</span></div>
+      </div>
       <div class="hero-index" aria-hidden="true"><span>01</span><span class="index-rule"></span><span>04</span></div>
     </section>
 
