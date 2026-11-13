@@ -6,8 +6,13 @@
   <meta name="theme-color" content="#f4f6f1">
   <meta name="description" content="Run Line 사용 방법, 자주 묻는 질문과 고객 지원 정보를 확인하세요.">
   <title>Run Line 지원</title>
+  <link rel="alternate" hreflang="ko" href="./?lang=ko">
+  <link rel="alternate" hreflang="en" href="en/">
+  <link rel="alternate" hreflang="ja" href="ja/">
+  <link rel="alternate" hreflang="x-default" href="./">
+  <script src="language-redirect.js?v=1"></script>
   <link rel="icon" type="image/jpeg" href="run-line-app.jpg">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
   <header class="site-header">
@@ -20,6 +25,7 @@
       <a href="#faq">자주 묻는 질문</a>
       <a class="nav-cta" href="#contact">문의하기 <span aria-hidden="true">↗</span></a>
     </nav>
+    <nav class="language-switch" aria-label="언어 선택"><a href="./?lang=ko" lang="ko" aria-current="page">한국어</a><a href="en/" lang="en">English</a><a href="ja/" lang="ja">日本語</a></nav>
   </header>
 
   <main id="top">
@@ -54,7 +60,7 @@
         <div class="section-heading"><div><p class="eyebrow">GET STARTED</p><h2>챌린지, 이렇게 시작해요</h2></div><p>목표를 정하고, 달린 거리를 기록하면<br class="desktop-only"> 진척이 지도 위에 차곡차곡 쌓입니다.</p></div>
         <div class="steps">
           <article class="step-card"><div class="step-top"><span class="step-num">01</span><span class="step-symbol symbol-map" aria-hidden="true">⌖</span></div><h3>목표를 정해요</h3><p>새 챌린지에서 이름을 정하고 지도에 출발지와 목적지를 선택하세요. 두 지점 사이의 직선거리가 목표가 됩니다.</p><span class="step-foot">지도 탭 또는 길게 누르기</span></article>
-          <article class="step-card"><div class="step-top"><span class="step-num">02</span><span class="step-symbol symbol-record" aria-hidden="true">↗</span></div><h3>달린 거리를 기록해요</h3><p>러닝이 끝난 뒤 거리와 날짜를 입력하면 누적 거리가 반영됩니다. 챌린지 상세에서 건강 앱 연동의 시작일을 정하면 러닝 워크아웃 거리도 자동으로 반영할 수 있어요.</p><span class="step-foot">수동 입력은 언제나 가능</span></article>
+          <article class="step-card"><div class="step-top"><span class="step-num">02</span><span class="step-symbol symbol-record" aria-hidden="true">↗</span></div><h3>달린 거리를 기록해요</h3><p>러닝이 끝난 뒤 거리와 날짜를 입력하면 누적 거리가 반영됩니다. 챌린지 상세에서 건강 앱 연동 화면을 열고 시작일을 정하면, 그날 이후의 러닝 워크아웃 거리를 자동으로 반영할 수 있어요.</p><span class="step-foot">수동 입력은 언제나 가능</span></article>
           <article class="step-card"><div class="step-top"><span class="step-num">03</span><span class="step-symbol symbol-finish" aria-hidden="true">✳</span></div><h3>진척을 확인해요</h3><p>현재 진척률과 남은 거리를 확인하고, 누적 거리가 목표에 도달하면 챌린지가 자동으로 완주 처리됩니다.</p><span class="step-foot">기록은 기기에 저장</span></article>
         </div>
       </div>
@@ -66,11 +72,12 @@
         <div class="faq-list">
           <details><summary><span class="q-mark">Q</span><span>지도 위 직선은 실제 러닝 경로인가요?</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer">아니요. 출발지와 목적지 사이의 직선은 챌린지 진척을 보여주는 시각화입니다. 실제 도로나 이동 경로, GPS 러닝 기록을 표시하지 않습니다.</div></details>
           <details><summary><span class="q-mark">Q</span><span>거리를 직접 입력할 수 있나요?</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer">네. 러닝 후 거리와 날짜를 직접 입력할 수 있습니다. 건강 앱 연동 여부와 관계없이 수동 입력을 이용할 수 있습니다.</div></details>
-          <details><summary><span class="q-mark">Q</span><span>건강 앱 기록과 직접 입력한 기록이 중복되면 어떻게 하나요?</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer">같은 날짜의 건강 기록과 수동 기록은 각각 표시될 수 있으며 기본적으로 둘 다 누적 거리에 합산됩니다. 같은 운동을 두 번 계산하지 않도록 수동 기록에 중복 가능 표시가 있으면 해당 기록의 합산 제외를 켜세요.</div></details>
+          <details><summary><span class="q-mark">Q</span><span>건강 앱 기록과 직접 입력한 기록이 중복되면 어떻게 하나요?</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer">같은 날짜의 건강 기록과 수동 기록은 각각 표시되며 기본적으로 둘 다 누적 거리에 합산됩니다. 같은 달리기라면 ‘건강 기록과 중복 가능’ 표시가 있는 수동 기록을 왼쪽으로 밀어 삭제하세요. 삭제 전에 확인할 수 있고, 삭제 후 잠시 실행 취소할 수 있습니다.</div></details>
           <details><summary><span class="q-mark">Q</span><span>챌린지와 기록은 어디에 저장되나요?</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer">챌린지와 거리 기록은 앱이 설치된 기기에 저장됩니다. 앱을 삭제하거나 데이터를 초기화하면 로컬 데이터가 삭제될 수 있으니 유의해 주세요.</div></details>
           <details><summary><span class="q-mark">Q</span><span>기록을 수정하거나 삭제할 수 있나요?</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer">진행 중인 챌린지에서는 수동으로 입력한 기록을 수정하거나 삭제할 수 있습니다. 건강 앱에서 가져온 기록은 앱에서 수정·삭제할 수 없으며, 완료한 챌린지의 기록은 조회만 가능합니다.</div></details>
           <details><summary><span class="q-mark">Q</span><span>완료한 챌린지를 다시 수정할 수 있나요?</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer">완료된 챌린지와 기록은 조회 전용입니다. 완료 챌린지 이력에서 챌린지를 삭제하면 연결된 기록도 함께 삭제됩니다.</div></details>
           <details><summary><span class="q-mark">Q</span><span>데이터 초기화는 건강 앱 기록에도 적용되나요?</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer">아니요. 데이터 초기화는 Run Line에 저장된 챌린지, 거리 기록과 설정만 이 기기에서 삭제합니다. 건강 앱의 원본 워크아웃 데이터는 변경하지 않습니다.</div></details>
+          <details><summary><span class="q-mark">Q</span><span>앱 언어는 어떻게 바꾸나요?</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer">Run Line 앱 안에는 언어 선택 메뉴가 없습니다. iPhone 설정에서 앱 &gt; Run Line &gt; 언어를 열어 한국어 또는 일본어를 선택하세요. 이 서포트 페이지의 언어 선택은 웹페이지에만 적용됩니다. iOS 버전에 따라 설정 항목의 이름이나 위치가 다를 수 있습니다.</div></details>
         </div>
       </div>
     </section>
@@ -79,9 +86,9 @@
       <div class="wrap contact-inner"><div><p class="eyebrow">WE’RE HERE TO HELP</p><h2>찾으시는 답이 없나요?</h2><p>앱 버전, 사용 중인 iOS 버전, 문제 상황을 함께 알려주시면 확인에 도움이 됩니다.</p></div><div class="contact-box"><span class="contact-icon" aria-hidden="true">↗</span><span class="contact-label">고객 지원</span><strong><a href="mailto:mechaoppa@gmail.com">mechaoppa@gmail.com</a></strong><small>문의 사항을 이메일로 보내 주세요.</small></div></div>
     </section>
 
-    <section class="privacy-strip"><div class="wrap privacy-inner"><span class="privacy-symbol" aria-hidden="true">◈</span><div><strong>개인정보와 건강 데이터</strong><p>Run Line의 데이터 처리 방식과 이용자의 권리를 개인정보 처리방침에서 확인하세요.</p></div><a href="privacy.html" class="privacy-link">개인정보 처리방침 <span aria-hidden="true">↗</span></a></div></section>
+    <section class="privacy-strip"><div class="wrap privacy-inner"><span class="privacy-symbol" aria-hidden="true">◈</span><div><strong>개인정보와 건강 데이터</strong><p>Run Line의 데이터 처리 방식과 이용자의 권리를 개인정보 처리방침에서 확인하세요.</p></div><a href="privacy.html?lang=ko" class="privacy-link">개인정보 처리방침 <span aria-hidden="true">↗</span></a></div></section>
   </main>
 
-  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><img src="run-line-app.jpg" alt=""></span><span>Run Line</span></a><div class="footer-meta"><span>앱 지원 페이지</span><a href="privacy.html">개인정보 처리방침</a></div><span class="copyright">© 2026 Run Line</span></div></footer>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><img src="run-line-app.jpg" alt=""></span><span>Run Line</span></a><div class="footer-meta"><span>앱 지원 페이지</span><a href="privacy.html?lang=ko">개인정보 처리방침</a></div><span class="copyright">© 2026 Run Line</span></div></footer>
 </body>
 </html>

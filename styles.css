@@ -32,3 +32,8 @@
 
 /* Brand marks use the user-provided Run Line app image. */
 .brand-mark img{display:block;width:100%;height:100%;max-width:100%;border-radius:inherit;object-fit:cover}
+
+/* Language links stay visible beside the main navigation on every locale page. */
+.site-header .language-switch{gap:10px;margin-left:22px;color:#59665e;font-size:10px;white-space:nowrap}.site-header .language-switch a[aria-current="page"]{color:var(--green);font-weight:800}.privacy-page .site-header .language-switch{margin-left:auto;margin-right:24px}
+@media(max-width:850px){.site-header .language-switch{gap:8px;margin-left:12px;font-size:9px}}
+@media(max-width:650px){.site-header{height:auto;min-height:66px;padding:10px 16px;flex-wrap:wrap;gap:8px}.site-header .language-switch{gap:8px;margin:0 0 0 auto;font-size:9px}.site-header .language-switch a:first-child{display:inline}.privacy-page .site-header .language-switch{margin:0 0 0 auto}.privacy-page .back-link{width:100%;text-align:right}}
